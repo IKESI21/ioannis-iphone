@@ -9,9 +9,9 @@ const NavIcons = (): JSX.Element => {
                         url="" />
                     <CustomApp title="Photos"
                         image="https://image.flaticon.com/icons/png/512/148/148813.png"
-                        url="" />
+                        url="/photos" />
                     <CustomApp title="Emails"
-                        image="https://image.flaticon.com/icons/png/512/831/831306.png"
+                        image="https://i.pinimg.com/originals/8f/c3/7b/8fc37b74b608a622588fbaa361485f32.png"
                         url="https://www.linkedin.com/in/ioannis-kesisoglou-b90234137/" />
                 </div>
     );
