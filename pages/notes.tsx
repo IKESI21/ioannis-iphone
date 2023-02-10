@@ -34,7 +34,7 @@ const NotesFooter = (): JSX.Element => {
     return (
         <div className="flex justify-center items-center bg-gray-100">
             <div className="flex flex-grow justify-center p-3">
-                <p className="font-bold ml-10">4 notes</p>
+                <p className="font-bold ml-10">5 notes</p>
             </div>
             <div className="mr-5">
                 <BsPencilSquare color="#ffd500" size={25} />

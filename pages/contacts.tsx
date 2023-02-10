@@ -1,4 +1,7 @@
 import Image from "next/image";
+import Link from "next/link";
+import Contact from "../components/Contacts/Contact";
+import { AiOutlineLeft } from "react-icons/ai";
 import ContactsNavBar from "../components/Contacts/ContactsNavBar";
 
 const Contacts = (): JSX.Element => {
@@ -6,14 +9,14 @@ const Contacts = (): JSX.Element => {
         <div>
             <div className="flex flex-col flex-grow justify-between h-screen">
                 <div className="flex justify-between p-3 bg-gray-100 border-b-2">
-                    <p className="text-blue-500 text-lg">Groupes</p>
+                    <Link href="/" passHref={true}>
+                        <div className="flex cursor-pointer ">
+                            <AiOutlineLeft size={25} color="#3366BB" />
+                            <p className="text-blue-600">Back</p>
+                        </div>
+                    </Link>
                     <p className="font-bold text-lg mr-8">Contacts</p>
-                    <Image
-                        className="object-contain"
-                        src="https://image.flaticon.com/icons/png/512/747/747944.png"
-                        width={20}
-                        height={20}
-                    />
+                    <p className="font-bold text-lg mr-8"></p>
                 </div>
                 <div className="flex flex-col justify-between flex-grow">
                     <div className="flex m-10">
@@ -25,9 +28,13 @@ const Contacts = (): JSX.Element => {
                             <p className="text-gray-500">+33 6 15 45 06 51</p>
                         </div>
                     </div>
-                    <div className="flex place-content-center text-3xl text-gray-500">
-                        <p>No Contacts</p>
+                    <div className="flex flex-grow flex-col">
+                            <Contact title='CHUNG-ANG UNIVERSITY' subtitle='Seoul, South Korea'/>
+                            <Contact title='EPITECH School of Digital Innovation' subtitle='Strasbourg / Paris, France'/>
                     </div>
+                    {/* <div className="flex text-3xl text-gray-500 border-2">
+                        <p>No Contacts</p>
+                    </div> */}
                    <ContactsNavBar />
                 </div>
             </div>
