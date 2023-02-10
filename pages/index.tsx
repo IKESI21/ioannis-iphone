@@ -17,7 +17,7 @@ const Home = (): JSX.Element => {
     return (
         <div className="">
             <Head>
-                <title>Ioannis' iPhone</title>
+                <title>{`Ioannis' iPhone`}</title>
             </Head>
             <Lockscreen />
         </div>
