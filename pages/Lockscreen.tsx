@@ -1,4 +1,6 @@
 import Link from "next/link";
+import React, { Dispatch, SetStateAction } from 'react';
+
 
 const Time = () => {
   return (
@@ -25,7 +27,11 @@ const Unlock = ({ setUnlock }) => {
   );
 };
 
-const Lockscreen = ({ setUnlock }): JSX.Element => {
+interface IProps {
+    setUnlock?: Dispatch<SetStateAction<boolean>>;
+  }
+
+const Lockscreen = ({ setUnlock }: IProps): JSX.Element => {
   return (
     <div className="flex flex-col flex-grow h-screen justify-between items-center py-20  bg-yellow-300 text-center ">
       <div className="flex">

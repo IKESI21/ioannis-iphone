@@ -16,7 +16,7 @@ const HomeScreen = () => {
 }
 
 const Home = (): JSX.Element => {
-    const [unlock, setUnlock] = useState(false);
+    const [unlock, setUnlock] = useState<boolean>(false);
 
     return (
         <div className="">
