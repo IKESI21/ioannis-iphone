@@ -19,7 +19,7 @@ const MainApps = (): JSX.Element => {
                 position={3}
                 />
             <CustomApp title="Accès EPS"
-                image="/logo_app.png"
+                image="/acces.png"
                 url="https://www.youtube.com/watch?v=k7CQv0tkJII&ab_channel=ACC%C3%88S%C3%89ditions" 
                 position={4}
                 />

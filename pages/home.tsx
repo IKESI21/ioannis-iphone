@@ -1,7 +1,7 @@
 import MainApps from '../components/MainApps/MainApps';
 import NavIcons from '../components/NavIcons/NavIcons';
 
-const HomeScreen = () => {
+const Home = () => {
     return (
         <div className="flex bg-yellow-300 flex-col flex-grow justify-between h-screen">
             <MainApps />
@@ -10,4 +10,4 @@ const HomeScreen = () => {
     )
 }
 
-export default HomeScreen;
+export default Home;

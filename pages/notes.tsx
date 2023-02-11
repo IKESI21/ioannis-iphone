@@ -9,7 +9,7 @@ const NotesHeader = (): JSX.Element => {
     return (
         <div className="flex flex-col bg-gray-100">
             <div className="flex items-center justify-between p-3">
-                <Link href="/" passHref={true}>
+                <Link href="/home" passHref={true}>
                     <div className="flex items-center cursor-pointer">
                         <AiOutlineLeft size={25} color="#ffd500" />
                         <p className="text-yellow-400 text-xl">Back</p>

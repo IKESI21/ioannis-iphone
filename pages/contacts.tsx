@@ -9,7 +9,7 @@ const Contacts = (): JSX.Element => {
         <div>
             <div className="flex flex-col flex-grow justify-between h-screen">
                 <div className="flex justify-between p-3 bg-gray-100 border-b-2">
-                    <Link href="/HomeScreen" passHref={true}>
+                    <Link href="/home" passHref={true}>
                         <div className="flex cursor-pointer ">
                             <AiOutlineLeft size={25} color="#3366BB" />
                             <p className="text-blue-600">Back</p>
