@@ -9,12 +9,12 @@ const NotesHeader = (): JSX.Element => {
     return (
         <div className="flex flex-col bg-gray-100">
             <div className="flex items-center justify-between p-3">
-                <div className="flex items-center cursor-pointer">
-                    <AiOutlineLeft size={25} color="#ffd500" />
-                    <Link href="/" passHref={true}>
+                <Link href="/" passHref={true}>
+                    <div className="flex items-center cursor-pointer">
+                        <AiOutlineLeft size={25} color="#ffd500" />
                         <p className="text-yellow-400 text-xl">Back</p>
-                    </Link>
-                </div>
+                    </div>
+                </Link>
                 <div className="mt-2">
                     <HiOutlineDotsCircleHorizontal size={30} color="#ffd500" />
                 </div>

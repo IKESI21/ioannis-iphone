@@ -2,7 +2,7 @@ import CustomApp from "../Apps/customApp";
 
 const MainApps = (): JSX.Element => {
     return (
-        <div className="grid grid-cols-4 gap-10 p-10 mt-10 sm:grid-cols-6">
+        <div className="grid grid-cols-4 gap-8 p-8 mt-2 sm:grid-cols-6">
             <CustomApp title="LinkedIn"
                 image="https://icon-library.com/images/linkedin-app-icon/linkedin-app-icon-24.jpg"
                 url="https://www.linkedin.com/in/ioannis-kesisoglou-b90234137/" 
@@ -24,12 +24,12 @@ const MainApps = (): JSX.Element => {
                 position={4}
                 />
             <CustomApp title="Contacts"
-                image="https://i.imgur.com/gh0TaOa.png"
+                image="/icons/contacts.png"
                 url="/contacts" 
                 position={5}
                 />
             <CustomApp title="Notes"
-                image="https://i.imgur.com/xMRbRSF.png"
+                image="/icons/notes.png"
                 url="/notes" 
                 position={6}
                 />
