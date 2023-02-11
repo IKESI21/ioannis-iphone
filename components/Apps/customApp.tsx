@@ -8,7 +8,7 @@ interface AppProps {
     position: number;
 }
 
-export const MailApp = ({ title, image }): JSX.Element => {
+export const MailApp = ({ title, image, url, position }: AppProps): JSX.Element => {
     return (
         <div className="flex flex-col place-items-center cursor-pointer">
             <button onClick={() => window.open('mailto:kesisoglou.ioannis@gmail.com')}>

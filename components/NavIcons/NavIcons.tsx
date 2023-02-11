@@ -16,7 +16,12 @@ const NavIcons = (): JSX.Element => {
         url="/photos"
         position={8}
       />
-      <MailApp title="Mail" image="/icons/mail.svg" />
+      <MailApp
+        title="Mail"
+        image="/icons/mail.svg"
+        url="/"
+        position={9}
+      />
     </div>
   );
 };
