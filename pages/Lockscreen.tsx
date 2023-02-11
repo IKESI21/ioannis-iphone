@@ -1,6 +1,9 @@
 import Link from "next/link";
 import React, { Dispatch, SetStateAction } from 'react';
 
+interface IProps {
+    setUnlock: Dispatch<SetStateAction<boolean>>;
+  }
 
 const Time = () => {
   return (
@@ -13,7 +16,7 @@ const Time = () => {
   );
 };
 
-const Unlock = ({ setUnlock }) => {
+const Unlock = ({ setUnlock }: IProps) => {
   return (
     <div className="cursor-pointer">
       {/* <Link href={"/HomeScreen"} passHref={true}> */}
@@ -26,10 +29,6 @@ const Unlock = ({ setUnlock }) => {
     </div>
   );
 };
-
-interface IProps {
-    setUnlock?: Dispatch<SetStateAction<boolean>>;
-  }
 
 const Lockscreen = ({ setUnlock }: IProps): JSX.Element => {
   return (
