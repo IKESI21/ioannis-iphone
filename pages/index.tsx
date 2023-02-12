@@ -8,7 +8,7 @@ import Lockscreen from "./Lockscreen";
 
 const HomeScreen = () => {
   return (
-    <div className="flex flex-col flex-grow justify-between h-screen bg-yellow-300 overflow-hidden">
+    <div className="flex flex-col flex-grow justify-between h-full bg-yellow-300 overflow-hidden">
       <MainApps />
       <NavIcons />
     </div>
@@ -19,7 +19,7 @@ const Main = (): JSX.Element => {
   const [unlock, setUnlock] = useState<boolean>(false);
 
   return (
-    <div className="flex flex-grow h-screen">
+    <div className="flex flex-grow flex-col min-h-screen overflow-hidden">
       <Head>
         <title>{`Ioannis' iPhone`}</title>
         <meta
