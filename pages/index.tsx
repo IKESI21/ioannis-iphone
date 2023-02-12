@@ -19,14 +19,12 @@ const Main = (): JSX.Element => {
   const [unlock, setUnlock] = useState<boolean>(false);
 
   return (
-    <div className="">
+    <div className="h-full">
       <Head>
         <title>{`Ioannis' iPhone`}</title>
       </Head>
       <Image
         src={"/mk.png"}
-        width={200}
-        height={200}
         layout="fill" // required
         objectFit="contain"
         alt="app logo"
