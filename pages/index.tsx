@@ -19,7 +19,7 @@ const Main = (): JSX.Element => {
   const [unlock, setUnlock] = useState<boolean>(false);
 
   return (
-    <div className="flex flex-grow flex-col min-h-screen overflow-hidden">
+    <div className="flex flex-grow flex-col min-safe-h-screen overflow-hidden">
       <Head>
         <title>{`Ioannis' iPhone`}</title>
         <meta
