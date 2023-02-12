@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Head from "next/head";
 import Link from "next/link";
 import { AiOutlineLeft } from "react-icons/ai";
 
@@ -63,6 +64,10 @@ const PhotosFooter = (): JSX.Element => {
 const photos = (): JSX.Element => {
   return (
     <div className="flex flex-col flex-grow min-safe-h-screen">
+      <Head>
+        <title>{`Ioannis' iPhone`}</title>
+        <meta name="theme-color" content="#F3F4F6" />
+      </Head>
       <PhotosHeader />
       <PhotoList />
       <PhotosFooter />

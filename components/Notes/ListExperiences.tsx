@@ -3,10 +3,10 @@ import Experiences from "./Experiences"
 const ListExperiences = (): JSX.Element => {
     const exp = [
         {
-            title: "Accès Editions Freelance", date: "Currently", description: "Maintenance of the application, development of new features and updates on App Store & Google Play Store", image: "/logo_app.png"
+            title: "Accès Editions Freelance", date: "Currently", description: "Maintenance of the application, development of new features and updates on App Store & Google Play Store", image: "/acces.png"
         },
         {
-            title: "Accès Editions", date: "September 2021 to march 2022", description: "Development of a mobile app for sports teachers to help them manage their classes, groups and sessions.", image: "/logo_app.png"
+            title: "Accès Editions", date: "September 2021 to march 2022", description: "Development of a mobile app for sports teachers to help them manage their classes, groups and sessions.", image: "/acces.png"
         },
     {
         title: "hiddentity", date: "2020 to 2022", description: "Development of a mobile app for job seekers and recruiters that matches them solely via their skills.The job seeker is 100% anonymous to avoid any kind of discrimination.", image: "https://media-exp1.licdn.com/dms/image/C4E0BAQH1xqlmJvIEBg/company-logo_200_200/0/1593473128241?e=2159024400&v=beta&t=LUF0kQIDgyvJOqU3p_dl90impmjBu-9mdNay_xkN1jg"
