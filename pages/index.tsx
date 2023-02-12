@@ -19,9 +19,10 @@ const Main = (): JSX.Element => {
   const [unlock, setUnlock] = useState<boolean>(false);
 
   return (
-    <div className="h-full">
+    <div className="">
       <Head>
         <title>{`Ioannis' iPhone`}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" /> 
       </Head>
       <Image
         src={"/mk.png"}
