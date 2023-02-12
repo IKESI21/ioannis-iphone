@@ -32,11 +32,11 @@ const Unlock = ({ setUnlock }: IProps) => {
 
 const Lockscreen = ({ setUnlock }: IProps): JSX.Element => {
   return (
-    <div className="flex flex-col flex-grow h-screen justify-between items-center py-20  bg-yellow-300 text-center ">
+    <div className="flex flex-col flex-grow h-full justify-between items-center py-20  bg-yellow-300 text-center">
       <div className="flex">
         <Time />
       </div>
-      <div className="flex">
+      <div className="flex mb-3 border-2">
         <Unlock setUnlock={setUnlock} />
       </div>
     </div>
