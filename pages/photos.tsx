@@ -62,7 +62,7 @@ const PhotosFooter = (): JSX.Element => {
 
 const photos = (): JSX.Element => {
   return (
-    <div className="flex flex-col flex-grow h-screen">
+    <div className="flex flex-col flex-grow min-safe-h-screen">
       <PhotosHeader />
       <PhotoList />
       <PhotosFooter />

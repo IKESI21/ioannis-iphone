@@ -7,7 +7,7 @@ import ContactsNavBar from "../components/Contacts/ContactsNavBar";
 const Contacts = (): JSX.Element => {
     return (
         <div>
-            <div className="flex flex-col flex-grow justify-between h-screen">
+            <div className="flex flex-col flex-grow justify-between min-safe-h-screen w-full fixed">
                 <div className="flex justify-between p-3 bg-gray-100 border-b-2">
                     <Link href="/home" passHref={true}>
                         <div className="flex cursor-pointer ">
