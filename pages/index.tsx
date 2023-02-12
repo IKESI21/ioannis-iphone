@@ -19,13 +19,10 @@ const Main = (): JSX.Element => {
   const [unlock, setUnlock] = useState<boolean>(false);
 
   return (
-    <div className="flex flex-grow flex-col min-safe-h-screen overflow-hidden">
+    <div className="flex flex-grow flex-col min-safe-h-screen w-full fixed">
       <Head>
         <title>{`Ioannis' iPhone`}</title>
-        <meta
-          name="viewport"
-          content="width=device-width, initial-scale=1.0, viewport-fit=cover"
-        />
+        <meta name="theme-color" content="#FBD44C" />
       </Head>
       <Image
         src={"/mk.png"}
