@@ -36,7 +36,7 @@ const Lockscreen = ({ setUnlock }: IProps): JSX.Element => {
       <div className="flex">
         <Time />
       </div>
-      <div className="flex mb-3">
+      <div className="flex">
         <Unlock setUnlock={setUnlock} />
       </div>
     </div>

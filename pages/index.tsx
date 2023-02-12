@@ -9,6 +9,16 @@ import Lockscreen from "./Lockscreen";
 const HomeScreen = () => {
   return (
     <div className="flex flex-col flex-grow justify-between h-full bg-yellow-300 overflow-hidden">
+      <Head>
+        <title>{`Ioannis' iPhone`}</title>
+        <meta name="theme-color" content="#FBD44C" />
+      </Head>
+      <Image
+        src={"/mk.png"}
+        layout="fill" // required
+        objectFit="contain"
+        alt="app logo"
+      />
       <MainApps />
       <NavIcons />
     </div>

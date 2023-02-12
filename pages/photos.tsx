@@ -33,7 +33,7 @@ const PhotoList = () => {
 const PhotosHeader = (): JSX.Element => {
   return (
     <div className="flex flex-row bg-gray-100 border-b-2 p-3">
-      <Link href="/home" passHref={true}>
+      <Link href="/" passHref={true}>
         <div className="flex flex-nowrap cursor-pointer">
           <AiOutlineLeft size={25} color="#3366BB" />
           <p className="text-blue-600">Back</p>

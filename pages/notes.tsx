@@ -32,7 +32,7 @@ const NotesHeader = (): JSX.Element => {
 
 const NotesFooter = (): JSX.Element => {
     return (
-        <div className="flex justify-center items-center bg-gray-100">
+        <div className="flex justify-center items-center bg-gray-100 fixed bottom-0 left-0 right-0 border-t-2">
             <div className="flex flex-grow justify-center p-3">
                 <p className="font-bold ml-10">5 notes</p>
             </div>
