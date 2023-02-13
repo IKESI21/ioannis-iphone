@@ -9,7 +9,7 @@ const Time = () => {
   return (
     <div className="flex flex-col flew-grow justify-center text-center">
       <p className="text-white text-8xl">
-        {new Date().toLocaleString().substring(11, 17)}
+        {new Date().toLocaleString().substring(11, 16)}
       </p>
       <p className="text-white text-2xl">Friday, February 10</p>
     </div>
@@ -21,8 +21,8 @@ const Unlock = ({ setUnlock }: IProps) => {
     <div className="cursor-pointer">
       {/* <Link href={"/HomeScreen"} passHref={true}> */}
         <div className="flex flex-row flew-grow justify-center text-center align-center">
-          <button className="text-white opacity-60 text-xl font-bold" onClick={() => setUnlock(true)}>
-            Touch to unlock
+          <button className="text-white opacity-60 text-2xl font-bold" onClick={() => setUnlock(true)}>
+            touch to unlock
           </button>
         </div>
       {/* </Link> */}

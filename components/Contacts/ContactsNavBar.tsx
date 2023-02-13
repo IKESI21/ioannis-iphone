@@ -5,7 +5,7 @@ import ContactsIcon from "./ContactsIcon";
 
 const ContactsNavBar = (): JSX.Element => {
   return (
-    <div className="flex flew-grow place-content-center justify-between h-20 w-full text-gray-500 bg-gray-100 fixed bottom-0 left-0 right-0">
+    <div className="flex flew-grow place-content-center justify-between h-20 w-full p-2 text-gray-500 bg-gray-100 fixed bottom-0 left-0 right-0">
       <ContactsIcon title="Favorites" Icon={IoIosStar} />
       <ContactsIcon title="Recents" Icon={IoIosTime} />
       <ContactsIcon title="Contacts" Icon={IoMdContact} />

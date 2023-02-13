@@ -35,6 +35,7 @@ const Main = (): JSX.Element => {
         <meta name="theme-color" content="#FBD44C" />
       </Head>
       <Image
+        className=""
         src={"/mk.png"}
         layout="fill" // required
         objectFit="contain"

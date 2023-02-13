@@ -16,14 +16,14 @@ const NotesHeader = (): JSX.Element => {
             <p className="text-yellow-400 text-xl">Back</p>
           </div>
         </Link>
-        <div className="mt-2">
+        <div className="">
           <HiOutlineDotsCircleHorizontal size={30} color="#ffd500" />
         </div>
       </div>
       <div>
         <h1 className="text-5xl font-bold ml-10">Notes</h1>
       </div>
-      <div className="flex justify-end mr-5 mt-5">
+      <div className="flex justify-end mr-5 mt-2">
         <p className="text-yellow-400 text-xl">
           Sorted by Date Edited (Default)
         </p>
